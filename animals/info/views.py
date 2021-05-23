@@ -44,6 +44,6 @@ def fetch_data(filename):
 data = fetch_data('/Users/lidu/Development/GitHub/Venv/animal_info/animals/info/animal.json')
 families = data['families']
 animals = data['animals']
-# print(families)
-# print(animals)
+print(families)
+print(animals)
 # print(family('Caninae'))
